@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "gcServer": true,
+    "configProperties": {
+      "System.GC.Server": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+C:\1code\1Main\ServiceSampleUbuntu180411\bin\Release\netcoreapp2.1\linux-arm\libhostpolicy.so
+C:\1code\1Main\ServiceSampleUbuntu180411\bin\Release\netcoreapp2.1\linux-arm\libhostfxr.so
+C:\1code\1Main\ServiceSampleUbuntu180411\bin\Release\netcoreapp2.1\linux-arm\ServiceSample
+C:\1code\1Main\ServiceSampleUbuntu180411\bin\Release\netcoreapp2.1\linux-arm\ServiceSample.deps.json
+C:\1code\1Main\ServiceSampleUbuntu180411\bin\Release\netcoreapp2.1\linux-arm\ServiceSample.runtimeconfig.json
+C:\1code\1Main\ServiceSampleUbuntu180411\bin\Release\netcoreapp2.1\linux-arm\ServiceSample.runtimeconfig.dev.json
+C:\1code\1Main\ServiceSampleUbuntu180411\bin\Release\netcoreapp2.1\linux-arm\ServiceSample.dll
+C:\1code\1Main\ServiceSampleUbuntu180411\bin\Release\netcoreapp2.1\linux-arm\ServiceSample.pdb
+C:\1code\1Main\ServiceSampleUbuntu180411\obj\Release\netcoreapp2.1\linux-arm\ServiceSample.csproj.CoreCompileInputs.cache
+C:\1code\1Main\ServiceSampleUbuntu180411\obj\Release\netcoreapp2.1\linux-arm\ServiceSample.AssemblyInfoInputs.cache
+C:\1code\1Main\ServiceSampleUbuntu180411\obj\Release\netcoreapp2.1\linux-arm\ServiceSample.AssemblyInfo.cs
+C:\1code\1Main\ServiceSampleUbuntu180411\obj\Release\netcoreapp2.1\linux-arm\ServiceSample.dll
+C:\1code\1Main\ServiceSampleUbuntu180411\obj\Release\netcoreapp2.1\linux-arm\ServiceSample.pdb
