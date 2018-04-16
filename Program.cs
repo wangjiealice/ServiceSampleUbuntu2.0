@@ -2,8 +2,11 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using System.IO;
-
-
+using System.Net;
+using System.Linq;
+using System;
+using Microsoft.AspNetCore.Http;
+using System.Net.Sockets;
 
 namespace ServiceSample
 {
@@ -11,20 +14,54 @@ namespace ServiceSample
     {
         public static void Main(string[] args)
         {
-            var config = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("hosting.json", optional: true)
-                .Build();
+            // var config = new ConfigurationBuilder()
+            //     .SetBasePath(Directory.GetCurrentDirectory())
+            //     .AddJsonFile("hosting.json", optional: true)
+            //     .Build();
+
+            string currentIP = GetCurrentIP2();
+            Console.WriteLine("CurrentIP: " + currentIP);
+            string url = @"http://" + currentIP + ":5000";
+
 
             var host = new WebHostBuilder()
-                .UseConfiguration(config)
+                //.UseConfiguration(config)
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
+                .UseUrls(url)
                 .UseStartup<Startup>()
                 .Build();
 
+
             host.Run();
         }
+
+        private static string GetCurrentIP()
+        {
+            string name = Dns.GetHostName();
+            IPAddress[] ipadrlist = Dns.GetHostAddresses(name);
+            Console.WriteLine("ipadrlist count: " + ipadrlist.Count());
+            for (int i = 0; i < ipadrlist.Count(); i++)
+            {
+                string ip = ipadrlist[i].MapToIPv4().ToString();
+                Console.WriteLine("ipadrlist " + i + " :" + ip);
+            }
+
+            // string ip = ipadrlist.Where(item => item.AddressFamily 
+            // == System.Net.Sockets.AddressFamily.InterNetwork).LastOrDefault().ToString();
+
+            return "";
+        }
+
+        private static string GetCurrentIP2()
+        {
+            Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, 0);
+            socket.Connect("8.8.8.8", 65530);
+            IPEndPoint endPoint = socket.LocalEndPoint as IPEndPoint;
+            string localIP = endPoint.Address.ToString();
+            return localIP;
+        }
+
     }
 }

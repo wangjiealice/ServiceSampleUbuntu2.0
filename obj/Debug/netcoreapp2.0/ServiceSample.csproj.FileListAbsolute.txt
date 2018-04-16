@@ -42,3 +42,14 @@ C:\1code\1Main\ServiceSampleUbuntu2.0\obj\Debug\netcoreapp2.0\ServiceSample.Asse
 C:\1code\1Main\ServiceSampleUbuntu2.0\obj\Debug\netcoreapp2.0\ServiceSample.AssemblyInfo.cs
 C:\1code\1Main\ServiceSampleUbuntu2.0\obj\Debug\netcoreapp2.0\ServiceSample.dll
 C:\1code\1Main\ServiceSampleUbuntu2.0\obj\Debug\netcoreapp2.0\ServiceSample.pdb
+C:\GitExt\ServiceSampleUbuntu2.0\bin\Debug\netcoreapp2.0\ServiceSample.deps.json
+C:\GitExt\ServiceSampleUbuntu2.0\bin\Debug\netcoreapp2.0\ServiceSample.runtimeconfig.json
+C:\GitExt\ServiceSampleUbuntu2.0\bin\Debug\netcoreapp2.0\ServiceSample.runtimeconfig.dev.json
+C:\GitExt\ServiceSampleUbuntu2.0\bin\Debug\netcoreapp2.0\ServiceSample.dll
+C:\GitExt\ServiceSampleUbuntu2.0\bin\Debug\netcoreapp2.0\ServiceSample.pdb
+C:\GitExt\ServiceSampleUbuntu2.0\obj\Debug\netcoreapp2.0\ServiceSample.csprojResolveAssemblyReference.cache
+C:\GitExt\ServiceSampleUbuntu2.0\obj\Debug\netcoreapp2.0\ServiceSample.csproj.CoreCompileInputs.cache
+C:\GitExt\ServiceSampleUbuntu2.0\obj\Debug\netcoreapp2.0\ServiceSample.AssemblyInfoInputs.cache
+C:\GitExt\ServiceSampleUbuntu2.0\obj\Debug\netcoreapp2.0\ServiceSample.AssemblyInfo.cs
+C:\GitExt\ServiceSampleUbuntu2.0\obj\Debug\netcoreapp2.0\ServiceSample.dll
+C:\GitExt\ServiceSampleUbuntu2.0\obj\Debug\netcoreapp2.0\ServiceSample.pdb
