@@ -41,17 +41,11 @@ namespace ServiceSample
         {
             string name = Dns.GetHostName();
             IPAddress[] ipadrlist = Dns.GetHostAddresses(name);
-            Console.WriteLine("ipadrlist count: " + ipadrlist.Count());
-            for (int i = 0; i < ipadrlist.Count(); i++)
-            {
-                string ip = ipadrlist[i].MapToIPv4().ToString();
-                Console.WriteLine("ipadrlist " + i + " :" + ip);
-            }
 
-            // string ip = ipadrlist.Where(item => item.AddressFamily 
-            // == System.Net.Sockets.AddressFamily.InterNetwork).LastOrDefault().ToString();
+            string ip = ipadrlist.Where(item => item.AddressFamily
+            == System.Net.Sockets.AddressFamily.InterNetwork).LastOrDefault().ToString();
 
-            return "";
+            return ip;
         }
 
         private static string GetCurrentIP2()
